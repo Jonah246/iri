@@ -34,7 +34,9 @@ public class RocksDBPersistenceProvider implements PersistenceProvider {
             "address",
             "approvee",
             "bundle",
-            "tag"
+            "tag",
+            "vm-state",
+            "alias"
     );
     private List<ColumnFamilyHandle> columnFamilyHandles = new ArrayList<>();
     private final String dbPath;
@@ -49,6 +51,8 @@ public class RocksDBPersistenceProvider implements PersistenceProvider {
     private ColumnFamilyHandle approveeHandle;
     private ColumnFamilyHandle bundleHandle;
     private ColumnFamilyHandle tagHandle;
+    private ColumnFamilyHandle vmstateHandle;
+    private ColumnFamilyHandle aliasHandle;
 
     private List<ColumnFamilyHandle> transactionGetList;
 
@@ -93,6 +97,9 @@ public class RocksDBPersistenceProvider implements PersistenceProvider {
         classMap.put(Approvee.class, approveeHandle);
         classMap.put(Bundle.class, bundleHandle);
         classMap.put(Tag.class, tagHandle);
+        classMap.put(Vmstate.class,vmstateHandle);
+        classMap.put(Alias.class,aliasHandle);
+
         classTreeMap.set(classMap);
 
         Map<Class<?>, ColumnFamilyHandle> metadataHashMap = new HashMap<>();
@@ -524,6 +531,9 @@ public class RocksDBPersistenceProvider implements PersistenceProvider {
         approveeHandle = columnFamilyHandles.get(++i);
         bundleHandle = columnFamilyHandles.get(++i);
         tagHandle = columnFamilyHandles.get(++i);
+        vmstateHandle=columnFamilyHandles.get(++i);
+        aliasHandle=columnFamilyHandles.get(++i);
+
         //hashesHandle = familyHandles.get(++i);
 
         for(; ++i < columnFamilyHandles.size();) {

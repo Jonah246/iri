@@ -23,19 +23,14 @@
     </properties>
 
     <repositories>
-        <repository>
-            <id>sonatype-oss-public</id>
-            <url>https://oss.sonatype.org/content/groups/public/</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </repository>
+      <repository>
+	<id>jitpack.io</id>
+	<url>https://jitpack.io</url>
+      </repository>
     </repositories>
-
-    <dependencies>
+    
+    
+<dependencies>
 
 <!-- https://mvnrepository.com/artifact/org.bouncycastle/bcprov-jdk15on -->
 <dependency>
@@ -151,9 +146,131 @@
 </dependency>
 
 <dependency>
+    <groupId>com.github.iotaledger.iota-java</groupId>
+    <artifactId>jota</artifactId>
+    <version>0.9.10</version>
+</dependency>
+
+<dependency>
+    <groupId>org.json</groupId>
+    <artifactId>json</artifactId>
+    <version>20171018</version>
+</dependency>
+<dependency>
   <groupId>org.zeromq</groupId>
   <artifactId>jeromq</artifactId>
   <version>0.4.3</version>
+</dependency>
+<dependency>
+	<groupId>org.bitbucket.dollar</groupId>
+	<artifactId>dollar</artifactId>
+	<version>1.0-beta3</version>
+</dependency>
+<dependency>
+    <groupId>com.github.briandilley.jsonrpc4j</groupId>
+    <artifactId>jsonrpc4j</artifactId>
+    <version>1.5.3</version>
+</dependency>
+<dependency>
+	<groupId>junit</groupId>
+	<artifactId>junit</artifactId>
+	<version>4.12</version>
+</dependency>
+<dependency>  
+    <groupId>org.codehaus.jackson</groupId>  
+    <artifactId>jackson-mapper-asl</artifactId>  
+    <version>1.9.4</version> 
+</dependency>
+<dependency>
+    <groupId>com.fasterxml.jackson.dataformat</groupId>
+    <artifactId>jackson-dataformat-xml</artifactId>
+    <version>2.8.5</version>
+</dependency>
+<dependency>
+    <groupId>com.fasterxml.jackson.core</groupId>
+    <artifactId>jackson-core</artifactId>
+    <version>2.8.5</version>
+</dependency>
+<dependency>
+	<groupId>javax.portlet</groupId>
+	<artifactId>portlet-api</artifactId>
+	<version>2.0</version>
+</dependency>
+<dependency>
+	<groupId>org.springframework</groupId>
+	<artifactId>spring-core</artifactId>
+	<version>3.1.2.RELEASE</version>
+</dependency>
+<dependency>
+	<groupId>org.springframework</groupId>
+	<artifactId>spring-context</artifactId>
+	<version>3.1.2.RELEASE</version>
+</dependency>
+<dependency>
+	<groupId>org.springframework</groupId>
+	<artifactId>spring-web</artifactId>
+	<version>3.1.2.RELEASE</version>
+</dependency>
+<dependency>
+	<groupId>org.springframework</groupId>
+	<artifactId>spring-test</artifactId>
+	<version>3.1.2.RELEASE</version>
+</dependency>
+<dependency>
+	<groupId>commons-codec</groupId>
+	<artifactId>commons-codec</artifactId>
+	<version>1.4</version>
+</dependency>
+<dependency>
+	<groupId>org.apache.httpcomponents</groupId>
+	<artifactId>httpcore-nio</artifactId>
+	<version>4.2.1</version>
+</dependency>
+<dependency>
+	<groupId>org.jmock</groupId>
+	<artifactId>jmock-junit4</artifactId>
+	<version>2.5.1</version>
+</dependency>
+<dependency>
+	<groupId>org.jmock</groupId>
+	<artifactId>jmock</artifactId>
+	<version>2.5.1</version>
+</dependency>
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-api</artifactId>
+    <version>1.7.25</version>
+</dependency>
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-log4j12</artifactId>
+    <version>1.7.5</version>
+</dependency>
+<dependency>
+	<groupId>org.eclipse.jetty</groupId>
+	<artifactId>jetty-server</artifactId>
+	<version>9.0.0.RC0</version>
+</dependency>
+<dependency>
+	<groupId>org.eclipse.jetty</groupId>
+	<artifactId>jetty-servlet</artifactId>
+	<version>9.0.0.RC0</version>
+</dependency>
+<dependency>
+	<groupId>org.ow2.chameleon.fuchsia.base.json-rpc</groupId>
+	<artifactId>org.ow2.chameleon.fuchsia.base.json-rpc.json-rpc-bundle</artifactId>
+	<version>0.0.2</version>
+</dependency>
+<dependency>
+	<groupId>io.netty</groupId>
+	<artifactId>netty-all</artifactId>
+	<version>5.0.0.Alpha1</version>
+</dependency>
+        <!-- https://mvnrepository.com/artifact/log4j/log4j -->
+<dependency>
+    <groupId>log4j</groupId>
+    <artifactId>log4j</artifactId>
+    <version>1.2.17</version>
 </dependency>
 </dependencies>
 

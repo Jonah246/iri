@@ -1,0 +1,976 @@
+2018/07/24-13:22:25.003417 7f7914dd6700 RocksDB version: 5.7.3
+2018/07/24-13:22:25.003447 7f7914dd6700 Git sha rocksdb_build_git_sha:
+2018/07/24-13:22:25.003449 7f7914dd6700 Compile date Sep  1 2017
+2018/07/24-13:22:25.003453 7f7914dd6700 DB SUMMARY
+2018/07/24-13:22:25.003521 7f7914dd6700 CURRENT file:  CURRENT
+2018/07/24-13:22:25.003524 7f7914dd6700 IDENTITY file:  IDENTITY
+2018/07/24-13:22:25.003527 7f7914dd6700 MANIFEST file:  MANIFEST-000509 size: 3542 Bytes
+2018/07/24-13:22:25.003529 7f7914dd6700 SST files in testnetdb dir, Total Num: 36, files: 000050.sst 000069.sst 000135.sst 000152.sst 000165.sst 000183.sst 000198.sst 000239.sst 000258.sst 
+2018/07/24-13:22:25.003533 7f7914dd6700 Write Ahead Log file in testnetdb: 000510.log size: 0 ; 
+2018/07/24-13:22:25.003537 7f7914dd6700                         Options.error_if_exists: 0
+2018/07/24-13:22:25.003538 7f7914dd6700                       Options.create_if_missing: 1
+2018/07/24-13:22:25.003539 7f7914dd6700                         Options.paranoid_checks: 1
+2018/07/24-13:22:25.003541 7f7914dd6700                                     Options.env: 0x7f78dcb0a880
+2018/07/24-13:22:25.003542 7f7914dd6700                                Options.info_log: 0x7f790cd8a200
+2018/07/24-13:22:25.003544 7f7914dd6700                Options.max_file_opening_threads: 16
+2018/07/24-13:22:25.003545 7f7914dd6700                               Options.use_fsync: 0
+2018/07/24-13:22:25.003546 7f7914dd6700                       Options.max_log_file_size: 1048576
+2018/07/24-13:22:25.003548 7f7914dd6700                  Options.max_manifest_file_size: 1048576
+2018/07/24-13:22:25.003549 7f7914dd6700                   Options.log_file_time_to_roll: 0
+2018/07/24-13:22:25.003550 7f7914dd6700                       Options.keep_log_file_num: 1000
+2018/07/24-13:22:25.003551 7f7914dd6700                    Options.recycle_log_file_num: 0
+2018/07/24-13:22:25.003553 7f7914dd6700                         Options.allow_fallocate: 1
+2018/07/24-13:22:25.003554 7f7914dd6700                        Options.allow_mmap_reads: 0
+2018/07/24-13:22:25.003555 7f7914dd6700                       Options.allow_mmap_writes: 0
+2018/07/24-13:22:25.003556 7f7914dd6700                        Options.use_direct_reads: 0
+2018/07/24-13:22:25.003558 7f7914dd6700                        Options.use_direct_io_for_flush_and_compaction: 0
+2018/07/24-13:22:25.003559 7f7914dd6700          Options.create_missing_column_families: 1
+2018/07/24-13:22:25.003560 7f7914dd6700                              Options.db_log_dir: testnetdb.log
+2018/07/24-13:22:25.003562 7f7914dd6700                                 Options.wal_dir: testnetdb
+2018/07/24-13:22:25.003563 7f7914dd6700                Options.table_cache_numshardbits: 6
+2018/07/24-13:22:25.003564 7f7914dd6700                      Options.max_subcompactions: 4
+2018/07/24-13:22:25.003567 7f7914dd6700                  Options.max_background_flushes: -1
+2018/07/24-13:22:25.003569 7f7914dd6700                         Options.WAL_ttl_seconds: 0
+2018/07/24-13:22:25.003570 7f7914dd6700                       Options.WAL_size_limit_MB: 0
+2018/07/24-13:22:25.003572 7f7914dd6700             Options.manifest_preallocation_size: 4194304
+2018/07/24-13:22:25.003573 7f7914dd6700                     Options.is_fd_close_on_exec: 1
+2018/07/24-13:22:25.003574 7f7914dd6700                   Options.advise_random_on_open: 1
+2018/07/24-13:22:25.003575 7f7914dd6700                    Options.db_write_buffer_size: 0
+2018/07/24-13:22:25.003577 7f7914dd6700         Options.access_hint_on_compaction_start: 1
+2018/07/24-13:22:25.003578 7f7914dd6700  Options.new_table_reader_for_compaction_inputs: 0
+2018/07/24-13:22:25.003579 7f7914dd6700               Options.compaction_readahead_size: 0
+2018/07/24-13:22:25.003580 7f7914dd6700           Options.random_access_max_buffer_size: 1048576
+2018/07/24-13:22:25.003582 7f7914dd6700           Options.writable_file_max_buffer_size: 1048576
+2018/07/24-13:22:25.003583 7f7914dd6700                      Options.use_adaptive_mutex: 0
+2018/07/24-13:22:25.003584 7f7914dd6700                            Options.rate_limiter: (nil)
+2018/07/24-13:22:25.003586 7f7914dd6700     Options.sst_file_manager.rate_bytes_per_sec: 0
+2018/07/24-13:22:25.003597 7f7914dd6700                          Options.bytes_per_sync: 0
+2018/07/24-13:22:25.003598 7f7914dd6700                      Options.wal_bytes_per_sync: 0
+2018/07/24-13:22:25.003600 7f7914dd6700                       Options.wal_recovery_mode: 2
+2018/07/24-13:22:25.003601 7f7914dd6700                  Options.enable_thread_tracking: 0
+2018/07/24-13:22:25.003602 7f7914dd6700                  Options.enable_pipelined_write: 0
+2018/07/24-13:22:25.003603 7f7914dd6700         Options.allow_concurrent_memtable_write: 1
+2018/07/24-13:22:25.003604 7f7914dd6700      Options.enable_write_thread_adaptive_yield: 1
+2018/07/24-13:22:25.003606 7f7914dd6700             Options.write_thread_max_yield_usec: 100
+2018/07/24-13:22:25.003607 7f7914dd6700            Options.write_thread_slow_yield_usec: 3
+2018/07/24-13:22:25.003608 7f7914dd6700                               Options.row_cache: None
+2018/07/24-13:22:25.003610 7f7914dd6700                              Options.wal_filter: None
+2018/07/24-13:22:25.003611 7f7914dd6700             Options.avoid_flush_during_recovery: 0
+2018/07/24-13:22:25.003612 7f7914dd6700             Options.allow_ingest_behind: 0
+2018/07/24-13:22:25.003613 7f7914dd6700             Options.concurrent_prepare: 0
+2018/07/24-13:22:25.003615 7f7914dd6700             Options.manual_wal_flush: 0
+2018/07/24-13:22:25.003617 7f7914dd6700             Options.max_background_jobs: 2
+2018/07/24-13:22:25.003618 7f7914dd6700             Options.max_background_compactions: 1
+2018/07/24-13:22:25.003620 7f7914dd6700             Options.avoid_flush_during_shutdown: 0
+2018/07/24-13:22:25.003621 7f7914dd6700             Options.delayed_write_rate : 16777216
+2018/07/24-13:22:25.003623 7f7914dd6700             Options.max_total_wal_size: 0
+2018/07/24-13:22:25.003625 7f7914dd6700             Options.delete_obsolete_files_period_micros: 21600000000
+2018/07/24-13:22:25.003626 7f7914dd6700                   Options.stats_dump_period_sec: 600
+2018/07/24-13:22:25.003627 7f7914dd6700                          Options.max_open_files: 10000
+2018/07/24-13:22:25.003629 7f7914dd6700 Compression algorithms supported:
+2018/07/24-13:22:25.003630 7f7914dd6700 	Snappy supported: 1
+2018/07/24-13:22:25.003631 7f7914dd6700 	Zlib supported: 1
+2018/07/24-13:22:25.003632 7f7914dd6700 	Bzip supported: 1
+2018/07/24-13:22:25.003634 7f7914dd6700 	LZ4 supported: 1
+2018/07/24-13:22:25.003639 7f7914dd6700 	ZSTD supported: 1
+2018/07/24-13:22:25.003641 7f7914dd6700 Fast CRC32 supported: 0
+2018/07/24-13:22:25.003757 7f7914dd6700 [db/version_set.cc:2712] Recovering from manifest file: MANIFEST-000509
+2018/07/24-13:22:25.003815 7f7914dd6700 [db/column_family.cc:413] --------------- Options for column family [default]:
+2018/07/24-13:22:25.003818 7f7914dd6700               Options.comparator: leveldb.BytewiseComparator
+2018/07/24-13:22:25.003820 7f7914dd6700           Options.merge_operator: StringAppendOperator
+2018/07/24-13:22:25.003822 7f7914dd6700        Options.compaction_filter: None
+2018/07/24-13:22:25.003823 7f7914dd6700        Options.compaction_filter_factory: None
+2018/07/24-13:22:25.003825 7f7914dd6700         Options.memtable_factory: SkipListFactory
+2018/07/24-13:22:25.003826 7f7914dd6700            Options.table_factory: BlockBasedTable
+2018/07/24-13:22:25.003848 7f7914dd6700            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (0x7f790cd1f400)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 0
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  index_type: 0
+  hash_index_allow_collision: 1
+  checksum: 1
+  no_block_cache: 0
+  block_cache: 0x7f790cd1ee88
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 32768
+    num_shard_bits : 10
+    strict_capacity_limit : 0
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: (nil)
+  persistent_cache: (nil)
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  filter_policy: rocksdb.BuiltinBloomFilter
+  whole_key_filtering: 1
+  format_version: 0
+2018/07/24-13:22:25.003859 7f7914dd6700        Options.write_buffer_size: 2097152
+2018/07/24-13:22:25.003861 7f7914dd6700  Options.max_write_buffer_number: 2
+2018/07/24-13:22:25.003863 7f7914dd6700          Options.compression: Snappy
+2018/07/24-13:22:25.003864 7f7914dd6700                  Options.bottommost_compression: Disabled
+2018/07/24-13:22:25.003866 7f7914dd6700       Options.prefix_extractor: nullptr
+2018/07/24-13:22:25.003867 7f7914dd6700   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2018/07/24-13:22:25.003868 7f7914dd6700             Options.num_levels: 7
+2018/07/24-13:22:25.003869 7f7914dd6700        Options.min_write_buffer_number_to_merge: 1
+2018/07/24-13:22:25.003870 7f7914dd6700     Options.max_write_buffer_number_to_maintain: 0
+2018/07/24-13:22:25.003872 7f7914dd6700            Options.compression_opts.window_bits: -14
+2018/07/24-13:22:25.003873 7f7914dd6700                  Options.compression_opts.level: -1
+2018/07/24-13:22:25.003874 7f7914dd6700               Options.compression_opts.strategy: 0
+2018/07/24-13:22:25.003875 7f7914dd6700         Options.compression_opts.max_dict_bytes: 0
+2018/07/24-13:22:25.003877 7f7914dd6700      Options.level0_file_num_compaction_trigger: 4
+2018/07/24-13:22:25.003878 7f7914dd6700          Options.level0_slowdown_writes_trigger: 20
+2018/07/24-13:22:25.003879 7f7914dd6700              Options.level0_stop_writes_trigger: 36
+2018/07/24-13:22:25.003880 7f7914dd6700                   Options.target_file_size_base: 67108864
+2018/07/24-13:22:25.003881 7f7914dd6700             Options.target_file_size_multiplier: 1
+2018/07/24-13:22:25.003883 7f7914dd6700                Options.max_bytes_for_level_base: 268435456
+2018/07/24-13:22:25.003884 7f7914dd6700 Options.level_compaction_dynamic_level_bytes: 0
+2018/07/24-13:22:25.003886 7f7914dd6700          Options.max_bytes_for_level_multiplier: 10.000000
+2018/07/24-13:22:25.003888 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2018/07/24-13:22:25.003890 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2018/07/24-13:22:25.003891 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2018/07/24-13:22:25.003892 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2018/07/24-13:22:25.003893 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2018/07/24-13:22:25.003895 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2018/07/24-13:22:25.003896 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2018/07/24-13:22:25.003897 7f7914dd6700       Options.max_sequential_skip_in_iterations: 8
+2018/07/24-13:22:25.003898 7f7914dd6700                    Options.max_compaction_bytes: 1677721600
+2018/07/24-13:22:25.003900 7f7914dd6700                        Options.arena_block_size: 262144
+2018/07/24-13:22:25.003901 7f7914dd6700   Options.soft_pending_compaction_bytes_limit: 68719476736
+2018/07/24-13:22:25.003902 7f7914dd6700   Options.hard_pending_compaction_bytes_limit: 274877906944
+2018/07/24-13:22:25.003903 7f7914dd6700       Options.rate_limit_delay_max_milliseconds: 100
+2018/07/24-13:22:25.003905 7f7914dd6700                Options.disable_auto_compactions: 0
+2018/07/24-13:22:25.003906 7f7914dd6700                        Options.compaction_style: kCompactionStyleLevel
+2018/07/24-13:22:25.003908 7f7914dd6700                          Options.compaction_pri: kByCompensatedSize
+2018/07/24-13:22:25.003909 7f7914dd6700 Options.compaction_options_universal.size_ratio: 1
+2018/07/24-13:22:25.003910 7f7914dd6700 Options.compaction_options_universal.min_merge_width: 2
+2018/07/24-13:22:25.003912 7f7914dd6700 Options.compaction_options_universal.max_merge_width: 4294967295
+2018/07/24-13:22:25.003913 7f7914dd6700 Options.compaction_options_universal.max_size_amplification_percent: 200
+2018/07/24-13:22:25.003914 7f7914dd6700 Options.compaction_options_universal.compression_size_percent: -1
+2018/07/24-13:22:25.003915 7f7914dd6700 Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2018/07/24-13:22:25.003921 7f7914dd6700 Options.compaction_options_fifo.max_table_files_size: 1073741824
+2018/07/24-13:22:25.003923 7f7914dd6700 Options.compaction_options_fifo.allow_compaction: 0
+2018/07/24-13:22:25.003924 7f7914dd6700 Options.compaction_options_fifo.ttl: 0
+2018/07/24-13:22:25.003925 7f7914dd6700                   Options.table_properties_collectors: 
+2018/07/24-13:22:25.003927 7f7914dd6700                   Options.inplace_update_support: 0
+2018/07/24-13:22:25.003928 7f7914dd6700                 Options.inplace_update_num_locks: 10000
+2018/07/24-13:22:25.003929 7f7914dd6700               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2018/07/24-13:22:25.003931 7f7914dd6700   Options.memtable_huge_page_size: 0
+2018/07/24-13:22:25.003932 7f7914dd6700                           Options.bloom_locality: 0
+2018/07/24-13:22:25.003933 7f7914dd6700                    Options.max_successive_merges: 0
+2018/07/24-13:22:25.003934 7f7914dd6700                Options.optimize_filters_for_hits: 0
+2018/07/24-13:22:25.003936 7f7914dd6700                Options.paranoid_file_checks: 0
+2018/07/24-13:22:25.003937 7f7914dd6700                Options.force_consistency_checks: 0
+2018/07/24-13:22:25.003938 7f7914dd6700                Options.report_bg_io_stats: 0
+2018/07/24-13:22:25.004018 7f7914dd6700 [db/column_family.cc:413] --------------- Options for column family [transaction]:
+2018/07/24-13:22:25.004021 7f7914dd6700               Options.comparator: leveldb.BytewiseComparator
+2018/07/24-13:22:25.004024 7f7914dd6700           Options.merge_operator: StringAppendOperator
+2018/07/24-13:22:25.004025 7f7914dd6700        Options.compaction_filter: None
+2018/07/24-13:22:25.004026 7f7914dd6700        Options.compaction_filter_factory: None
+2018/07/24-13:22:25.004028 7f7914dd6700         Options.memtable_factory: SkipListFactory
+2018/07/24-13:22:25.004029 7f7914dd6700            Options.table_factory: BlockBasedTable
+2018/07/24-13:22:25.004048 7f7914dd6700            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (0x7f790cd1f400)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 0
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  index_type: 0
+  hash_index_allow_collision: 1
+  checksum: 1
+  no_block_cache: 0
+  block_cache: 0x7f790cd1ee88
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 32768
+    num_shard_bits : 10
+    strict_capacity_limit : 0
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: (nil)
+  persistent_cache: (nil)
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  filter_policy: rocksdb.BuiltinBloomFilter
+  whole_key_filtering: 1
+  format_version: 0
+2018/07/24-13:22:25.004050 7f7914dd6700        Options.write_buffer_size: 2097152
+2018/07/24-13:22:25.004052 7f7914dd6700  Options.max_write_buffer_number: 2
+2018/07/24-13:22:25.004053 7f7914dd6700          Options.compression: Snappy
+2018/07/24-13:22:25.004054 7f7914dd6700                  Options.bottommost_compression: Disabled
+2018/07/24-13:22:25.004056 7f7914dd6700       Options.prefix_extractor: nullptr
+2018/07/24-13:22:25.004057 7f7914dd6700   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2018/07/24-13:22:25.004058 7f7914dd6700             Options.num_levels: 7
+2018/07/24-13:22:25.004059 7f7914dd6700        Options.min_write_buffer_number_to_merge: 1
+2018/07/24-13:22:25.004061 7f7914dd6700     Options.max_write_buffer_number_to_maintain: 0
+2018/07/24-13:22:25.004062 7f7914dd6700            Options.compression_opts.window_bits: -14
+2018/07/24-13:22:25.004063 7f7914dd6700                  Options.compression_opts.level: -1
+2018/07/24-13:22:25.004064 7f7914dd6700               Options.compression_opts.strategy: 0
+2018/07/24-13:22:25.004065 7f7914dd6700         Options.compression_opts.max_dict_bytes: 0
+2018/07/24-13:22:25.004067 7f7914dd6700      Options.level0_file_num_compaction_trigger: 4
+2018/07/24-13:22:25.004068 7f7914dd6700          Options.level0_slowdown_writes_trigger: 20
+2018/07/24-13:22:25.004069 7f7914dd6700              Options.level0_stop_writes_trigger: 36
+2018/07/24-13:22:25.004077 7f7914dd6700                   Options.target_file_size_base: 67108864
+2018/07/24-13:22:25.004079 7f7914dd6700             Options.target_file_size_multiplier: 1
+2018/07/24-13:22:25.004080 7f7914dd6700                Options.max_bytes_for_level_base: 268435456
+2018/07/24-13:22:25.004081 7f7914dd6700 Options.level_compaction_dynamic_level_bytes: 0
+2018/07/24-13:22:25.004083 7f7914dd6700          Options.max_bytes_for_level_multiplier: 10.000000
+2018/07/24-13:22:25.004085 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2018/07/24-13:22:25.004086 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2018/07/24-13:22:25.004087 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2018/07/24-13:22:25.004088 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2018/07/24-13:22:25.004090 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2018/07/24-13:22:25.004091 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2018/07/24-13:22:25.004093 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2018/07/24-13:22:25.004094 7f7914dd6700       Options.max_sequential_skip_in_iterations: 8
+2018/07/24-13:22:25.004096 7f7914dd6700                    Options.max_compaction_bytes: 1677721600
+2018/07/24-13:22:25.004097 7f7914dd6700                        Options.arena_block_size: 262144
+2018/07/24-13:22:25.004098 7f7914dd6700   Options.soft_pending_compaction_bytes_limit: 68719476736
+2018/07/24-13:22:25.004099 7f7914dd6700   Options.hard_pending_compaction_bytes_limit: 274877906944
+2018/07/24-13:22:25.004101 7f7914dd6700       Options.rate_limit_delay_max_milliseconds: 100
+2018/07/24-13:22:25.004102 7f7914dd6700                Options.disable_auto_compactions: 0
+2018/07/24-13:22:25.004103 7f7914dd6700                        Options.compaction_style: kCompactionStyleLevel
+2018/07/24-13:22:25.004104 7f7914dd6700                          Options.compaction_pri: kByCompensatedSize
+2018/07/24-13:22:25.004106 7f7914dd6700 Options.compaction_options_universal.size_ratio: 1
+2018/07/24-13:22:25.004107 7f7914dd6700 Options.compaction_options_universal.min_merge_width: 2
+2018/07/24-13:22:25.004108 7f7914dd6700 Options.compaction_options_universal.max_merge_width: 4294967295
+2018/07/24-13:22:25.004109 7f7914dd6700 Options.compaction_options_universal.max_size_amplification_percent: 200
+2018/07/24-13:22:25.004111 7f7914dd6700 Options.compaction_options_universal.compression_size_percent: -1
+2018/07/24-13:22:25.004112 7f7914dd6700 Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2018/07/24-13:22:25.004113 7f7914dd6700 Options.compaction_options_fifo.max_table_files_size: 1073741824
+2018/07/24-13:22:25.004115 7f7914dd6700 Options.compaction_options_fifo.allow_compaction: 0
+2018/07/24-13:22:25.004116 7f7914dd6700 Options.compaction_options_fifo.ttl: 0
+2018/07/24-13:22:25.004117 7f7914dd6700                   Options.table_properties_collectors: 
+2018/07/24-13:22:25.004118 7f7914dd6700                   Options.inplace_update_support: 0
+2018/07/24-13:22:25.004119 7f7914dd6700                 Options.inplace_update_num_locks: 10000
+2018/07/24-13:22:25.004121 7f7914dd6700               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2018/07/24-13:22:25.004122 7f7914dd6700   Options.memtable_huge_page_size: 0
+2018/07/24-13:22:25.004123 7f7914dd6700                           Options.bloom_locality: 0
+2018/07/24-13:22:25.004125 7f7914dd6700                    Options.max_successive_merges: 0
+2018/07/24-13:22:25.004126 7f7914dd6700                Options.optimize_filters_for_hits: 0
+2018/07/24-13:22:25.004127 7f7914dd6700                Options.paranoid_file_checks: 0
+2018/07/24-13:22:25.004128 7f7914dd6700                Options.force_consistency_checks: 0
+2018/07/24-13:22:25.004129 7f7914dd6700                Options.report_bg_io_stats: 0
+2018/07/24-13:22:25.004157 7f7914dd6700 [db/column_family.cc:413] --------------- Options for column family [transaction-metadata]:
+2018/07/24-13:22:25.004166 7f7914dd6700               Options.comparator: leveldb.BytewiseComparator
+2018/07/24-13:22:25.004167 7f7914dd6700           Options.merge_operator: StringAppendOperator
+2018/07/24-13:22:25.004169 7f7914dd6700        Options.compaction_filter: None
+2018/07/24-13:22:25.004170 7f7914dd6700        Options.compaction_filter_factory: None
+2018/07/24-13:22:25.004171 7f7914dd6700         Options.memtable_factory: SkipListFactory
+2018/07/24-13:22:25.004173 7f7914dd6700            Options.table_factory: BlockBasedTable
+2018/07/24-13:22:25.004186 7f7914dd6700            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (0x7f790cd1f400)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 0
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  index_type: 0
+  hash_index_allow_collision: 1
+  checksum: 1
+  no_block_cache: 0
+  block_cache: 0x7f790cd1ee88
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 32768
+    num_shard_bits : 10
+    strict_capacity_limit : 0
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: (nil)
+  persistent_cache: (nil)
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  filter_policy: rocksdb.BuiltinBloomFilter
+  whole_key_filtering: 1
+  format_version: 0
+2018/07/24-13:22:25.004189 7f7914dd6700        Options.write_buffer_size: 2097152
+2018/07/24-13:22:25.004190 7f7914dd6700  Options.max_write_buffer_number: 2
+2018/07/24-13:22:25.004191 7f7914dd6700          Options.compression: Snappy
+2018/07/24-13:22:25.004193 7f7914dd6700                  Options.bottommost_compression: Disabled
+2018/07/24-13:22:25.004194 7f7914dd6700       Options.prefix_extractor: nullptr
+2018/07/24-13:22:25.004195 7f7914dd6700   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2018/07/24-13:22:25.004196 7f7914dd6700             Options.num_levels: 7
+2018/07/24-13:22:25.004198 7f7914dd6700        Options.min_write_buffer_number_to_merge: 1
+2018/07/24-13:22:25.004199 7f7914dd6700     Options.max_write_buffer_number_to_maintain: 0
+2018/07/24-13:22:25.004200 7f7914dd6700            Options.compression_opts.window_bits: -14
+2018/07/24-13:22:25.004201 7f7914dd6700                  Options.compression_opts.level: -1
+2018/07/24-13:22:25.004202 7f7914dd6700               Options.compression_opts.strategy: 0
+2018/07/24-13:22:25.004204 7f7914dd6700         Options.compression_opts.max_dict_bytes: 0
+2018/07/24-13:22:25.004205 7f7914dd6700      Options.level0_file_num_compaction_trigger: 4
+2018/07/24-13:22:25.004206 7f7914dd6700          Options.level0_slowdown_writes_trigger: 20
+2018/07/24-13:22:25.004207 7f7914dd6700              Options.level0_stop_writes_trigger: 36
+2018/07/24-13:22:25.004208 7f7914dd6700                   Options.target_file_size_base: 67108864
+2018/07/24-13:22:25.004210 7f7914dd6700             Options.target_file_size_multiplier: 1
+2018/07/24-13:22:25.004212 7f7914dd6700                Options.max_bytes_for_level_base: 268435456
+2018/07/24-13:22:25.004213 7f7914dd6700 Options.level_compaction_dynamic_level_bytes: 0
+2018/07/24-13:22:25.004214 7f7914dd6700          Options.max_bytes_for_level_multiplier: 10.000000
+2018/07/24-13:22:25.004216 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2018/07/24-13:22:25.004217 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2018/07/24-13:22:25.004218 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2018/07/24-13:22:25.004220 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2018/07/24-13:22:25.004221 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2018/07/24-13:22:25.004222 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2018/07/24-13:22:25.004223 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2018/07/24-13:22:25.004224 7f7914dd6700       Options.max_sequential_skip_in_iterations: 8
+2018/07/24-13:22:25.004226 7f7914dd6700                    Options.max_compaction_bytes: 1677721600
+2018/07/24-13:22:25.004232 7f7914dd6700                        Options.arena_block_size: 262144
+2018/07/24-13:22:25.004233 7f7914dd6700   Options.soft_pending_compaction_bytes_limit: 68719476736
+2018/07/24-13:22:25.004235 7f7914dd6700   Options.hard_pending_compaction_bytes_limit: 274877906944
+2018/07/24-13:22:25.004236 7f7914dd6700       Options.rate_limit_delay_max_milliseconds: 100
+2018/07/24-13:22:25.004237 7f7914dd6700                Options.disable_auto_compactions: 0
+2018/07/24-13:22:25.004239 7f7914dd6700                        Options.compaction_style: kCompactionStyleLevel
+2018/07/24-13:22:25.004240 7f7914dd6700                          Options.compaction_pri: kByCompensatedSize
+2018/07/24-13:22:25.004241 7f7914dd6700 Options.compaction_options_universal.size_ratio: 1
+2018/07/24-13:22:25.004243 7f7914dd6700 Options.compaction_options_universal.min_merge_width: 2
+2018/07/24-13:22:25.004244 7f7914dd6700 Options.compaction_options_universal.max_merge_width: 4294967295
+2018/07/24-13:22:25.004245 7f7914dd6700 Options.compaction_options_universal.max_size_amplification_percent: 200
+2018/07/24-13:22:25.004247 7f7914dd6700 Options.compaction_options_universal.compression_size_percent: -1
+2018/07/24-13:22:25.004248 7f7914dd6700 Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2018/07/24-13:22:25.004249 7f7914dd6700 Options.compaction_options_fifo.max_table_files_size: 1073741824
+2018/07/24-13:22:25.004250 7f7914dd6700 Options.compaction_options_fifo.allow_compaction: 0
+2018/07/24-13:22:25.004252 7f7914dd6700 Options.compaction_options_fifo.ttl: 0
+2018/07/24-13:22:25.004253 7f7914dd6700                   Options.table_properties_collectors: 
+2018/07/24-13:22:25.004254 7f7914dd6700                   Options.inplace_update_support: 0
+2018/07/24-13:22:25.004256 7f7914dd6700                 Options.inplace_update_num_locks: 10000
+2018/07/24-13:22:25.004257 7f7914dd6700               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2018/07/24-13:22:25.004259 7f7914dd6700   Options.memtable_huge_page_size: 0
+2018/07/24-13:22:25.004260 7f7914dd6700                           Options.bloom_locality: 0
+2018/07/24-13:22:25.004261 7f7914dd6700                    Options.max_successive_merges: 0
+2018/07/24-13:22:25.004262 7f7914dd6700                Options.optimize_filters_for_hits: 0
+2018/07/24-13:22:25.004264 7f7914dd6700                Options.paranoid_file_checks: 0
+2018/07/24-13:22:25.004265 7f7914dd6700                Options.force_consistency_checks: 0
+2018/07/24-13:22:25.004266 7f7914dd6700                Options.report_bg_io_stats: 0
+2018/07/24-13:22:25.004286 7f7914dd6700 [db/column_family.cc:413] --------------- Options for column family [milestone]:
+2018/07/24-13:22:25.004288 7f7914dd6700               Options.comparator: leveldb.BytewiseComparator
+2018/07/24-13:22:25.004289 7f7914dd6700           Options.merge_operator: StringAppendOperator
+2018/07/24-13:22:25.004291 7f7914dd6700        Options.compaction_filter: None
+2018/07/24-13:22:25.004292 7f7914dd6700        Options.compaction_filter_factory: None
+2018/07/24-13:22:25.004293 7f7914dd6700         Options.memtable_factory: SkipListFactory
+2018/07/24-13:22:25.004294 7f7914dd6700            Options.table_factory: BlockBasedTable
+2018/07/24-13:22:25.004306 7f7914dd6700            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (0x7f790cd1f400)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 0
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  index_type: 0
+  hash_index_allow_collision: 1
+  checksum: 1
+  no_block_cache: 0
+  block_cache: 0x7f790cd1ee88
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 32768
+    num_shard_bits : 10
+    strict_capacity_limit : 0
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: (nil)
+  persistent_cache: (nil)
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  filter_policy: rocksdb.BuiltinBloomFilter
+  whole_key_filtering: 1
+  format_version: 0
+2018/07/24-13:22:25.004310 7f7914dd6700        Options.write_buffer_size: 2097152
+2018/07/24-13:22:25.004316 7f7914dd6700  Options.max_write_buffer_number: 2
+2018/07/24-13:22:25.004318 7f7914dd6700          Options.compression: Snappy
+2018/07/24-13:22:25.004319 7f7914dd6700                  Options.bottommost_compression: Disabled
+2018/07/24-13:22:25.004320 7f7914dd6700       Options.prefix_extractor: nullptr
+2018/07/24-13:22:25.004322 7f7914dd6700   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2018/07/24-13:22:25.004323 7f7914dd6700             Options.num_levels: 7
+2018/07/24-13:22:25.004325 7f7914dd6700        Options.min_write_buffer_number_to_merge: 1
+2018/07/24-13:22:25.004327 7f7914dd6700     Options.max_write_buffer_number_to_maintain: 0
+2018/07/24-13:22:25.004328 7f7914dd6700            Options.compression_opts.window_bits: -14
+2018/07/24-13:22:25.004329 7f7914dd6700                  Options.compression_opts.level: -1
+2018/07/24-13:22:25.004330 7f7914dd6700               Options.compression_opts.strategy: 0
+2018/07/24-13:22:25.004331 7f7914dd6700         Options.compression_opts.max_dict_bytes: 0
+2018/07/24-13:22:25.004332 7f7914dd6700      Options.level0_file_num_compaction_trigger: 4
+2018/07/24-13:22:25.004333 7f7914dd6700          Options.level0_slowdown_writes_trigger: 20
+2018/07/24-13:22:25.004335 7f7914dd6700              Options.level0_stop_writes_trigger: 36
+2018/07/24-13:22:25.004336 7f7914dd6700                   Options.target_file_size_base: 67108864
+2018/07/24-13:22:25.004337 7f7914dd6700             Options.target_file_size_multiplier: 1
+2018/07/24-13:22:25.004338 7f7914dd6700                Options.max_bytes_for_level_base: 268435456
+2018/07/24-13:22:25.004339 7f7914dd6700 Options.level_compaction_dynamic_level_bytes: 0
+2018/07/24-13:22:25.004341 7f7914dd6700          Options.max_bytes_for_level_multiplier: 10.000000
+2018/07/24-13:22:25.004342 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2018/07/24-13:22:25.004344 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2018/07/24-13:22:25.004345 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2018/07/24-13:22:25.004346 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2018/07/24-13:22:25.004347 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2018/07/24-13:22:25.004349 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2018/07/24-13:22:25.004350 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2018/07/24-13:22:25.004351 7f7914dd6700       Options.max_sequential_skip_in_iterations: 8
+2018/07/24-13:22:25.004352 7f7914dd6700                    Options.max_compaction_bytes: 1677721600
+2018/07/24-13:22:25.004353 7f7914dd6700                        Options.arena_block_size: 262144
+2018/07/24-13:22:25.004355 7f7914dd6700   Options.soft_pending_compaction_bytes_limit: 68719476736
+2018/07/24-13:22:25.004356 7f7914dd6700   Options.hard_pending_compaction_bytes_limit: 274877906944
+2018/07/24-13:22:25.004357 7f7914dd6700       Options.rate_limit_delay_max_milliseconds: 100
+2018/07/24-13:22:25.004358 7f7914dd6700                Options.disable_auto_compactions: 0
+2018/07/24-13:22:25.004359 7f7914dd6700                        Options.compaction_style: kCompactionStyleLevel
+2018/07/24-13:22:25.004361 7f7914dd6700                          Options.compaction_pri: kByCompensatedSize
+2018/07/24-13:22:25.004362 7f7914dd6700 Options.compaction_options_universal.size_ratio: 1
+2018/07/24-13:22:25.004363 7f7914dd6700 Options.compaction_options_universal.min_merge_width: 2
+2018/07/24-13:22:25.004364 7f7914dd6700 Options.compaction_options_universal.max_merge_width: 4294967295
+2018/07/24-13:22:25.004366 7f7914dd6700 Options.compaction_options_universal.max_size_amplification_percent: 200
+2018/07/24-13:22:25.004367 7f7914dd6700 Options.compaction_options_universal.compression_size_percent: -1
+2018/07/24-13:22:25.004368 7f7914dd6700 Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2018/07/24-13:22:25.004369 7f7914dd6700 Options.compaction_options_fifo.max_table_files_size: 1073741824
+2018/07/24-13:22:25.004374 7f7914dd6700 Options.compaction_options_fifo.allow_compaction: 0
+2018/07/24-13:22:25.004376 7f7914dd6700 Options.compaction_options_fifo.ttl: 0
+2018/07/24-13:22:25.004377 7f7914dd6700                   Options.table_properties_collectors: 
+2018/07/24-13:22:25.004378 7f7914dd6700                   Options.inplace_update_support: 0
+2018/07/24-13:22:25.004380 7f7914dd6700                 Options.inplace_update_num_locks: 10000
+2018/07/24-13:22:25.004381 7f7914dd6700               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2018/07/24-13:22:25.004382 7f7914dd6700   Options.memtable_huge_page_size: 0
+2018/07/24-13:22:25.004384 7f7914dd6700                           Options.bloom_locality: 0
+2018/07/24-13:22:25.004385 7f7914dd6700                    Options.max_successive_merges: 0
+2018/07/24-13:22:25.004386 7f7914dd6700                Options.optimize_filters_for_hits: 0
+2018/07/24-13:22:25.004387 7f7914dd6700                Options.paranoid_file_checks: 0
+2018/07/24-13:22:25.004389 7f7914dd6700                Options.force_consistency_checks: 0
+2018/07/24-13:22:25.004390 7f7914dd6700                Options.report_bg_io_stats: 0
+2018/07/24-13:22:25.004427 7f7914dd6700 [db/column_family.cc:413] --------------- Options for column family [stateDiff]:
+2018/07/24-13:22:25.004429 7f7914dd6700               Options.comparator: leveldb.BytewiseComparator
+2018/07/24-13:22:25.004430 7f7914dd6700           Options.merge_operator: StringAppendOperator
+2018/07/24-13:22:25.004431 7f7914dd6700        Options.compaction_filter: None
+2018/07/24-13:22:25.004433 7f7914dd6700        Options.compaction_filter_factory: None
+2018/07/24-13:22:25.004434 7f7914dd6700         Options.memtable_factory: SkipListFactory
+2018/07/24-13:22:25.004435 7f7914dd6700            Options.table_factory: BlockBasedTable
+2018/07/24-13:22:25.004449 7f7914dd6700            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (0x7f790cd1f400)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 0
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  index_type: 0
+  hash_index_allow_collision: 1
+  checksum: 1
+  no_block_cache: 0
+  block_cache: 0x7f790cd1ee88
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 32768
+    num_shard_bits : 10
+    strict_capacity_limit : 0
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: (nil)
+  persistent_cache: (nil)
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  filter_policy: rocksdb.BuiltinBloomFilter
+  whole_key_filtering: 1
+  format_version: 0
+2018/07/24-13:22:25.004451 7f7914dd6700        Options.write_buffer_size: 2097152
+2018/07/24-13:22:25.004453 7f7914dd6700  Options.max_write_buffer_number: 2
+2018/07/24-13:22:25.004454 7f7914dd6700          Options.compression: Snappy
+2018/07/24-13:22:25.004455 7f7914dd6700                  Options.bottommost_compression: Disabled
+2018/07/24-13:22:25.004457 7f7914dd6700       Options.prefix_extractor: nullptr
+2018/07/24-13:22:25.004458 7f7914dd6700   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2018/07/24-13:22:25.004459 7f7914dd6700             Options.num_levels: 7
+2018/07/24-13:22:25.004460 7f7914dd6700        Options.min_write_buffer_number_to_merge: 1
+2018/07/24-13:22:25.004462 7f7914dd6700     Options.max_write_buffer_number_to_maintain: 0
+2018/07/24-13:22:25.004463 7f7914dd6700            Options.compression_opts.window_bits: -14
+2018/07/24-13:22:25.004464 7f7914dd6700                  Options.compression_opts.level: -1
+2018/07/24-13:22:25.004465 7f7914dd6700               Options.compression_opts.strategy: 0
+2018/07/24-13:22:25.004467 7f7914dd6700         Options.compression_opts.max_dict_bytes: 0
+2018/07/24-13:22:25.004468 7f7914dd6700      Options.level0_file_num_compaction_trigger: 4
+2018/07/24-13:22:25.004469 7f7914dd6700          Options.level0_slowdown_writes_trigger: 20
+2018/07/24-13:22:25.004470 7f7914dd6700              Options.level0_stop_writes_trigger: 36
+2018/07/24-13:22:25.004477 7f7914dd6700                   Options.target_file_size_base: 67108864
+2018/07/24-13:22:25.004479 7f7914dd6700             Options.target_file_size_multiplier: 1
+2018/07/24-13:22:25.004480 7f7914dd6700                Options.max_bytes_for_level_base: 268435456
+2018/07/24-13:22:25.004481 7f7914dd6700 Options.level_compaction_dynamic_level_bytes: 0
+2018/07/24-13:22:25.004483 7f7914dd6700          Options.max_bytes_for_level_multiplier: 10.000000
+2018/07/24-13:22:25.004485 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2018/07/24-13:22:25.004486 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2018/07/24-13:22:25.004488 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2018/07/24-13:22:25.004489 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2018/07/24-13:22:25.004491 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2018/07/24-13:22:25.004492 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2018/07/24-13:22:25.004493 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2018/07/24-13:22:25.004495 7f7914dd6700       Options.max_sequential_skip_in_iterations: 8
+2018/07/24-13:22:25.004496 7f7914dd6700                    Options.max_compaction_bytes: 1677721600
+2018/07/24-13:22:25.004497 7f7914dd6700                        Options.arena_block_size: 262144
+2018/07/24-13:22:25.004498 7f7914dd6700   Options.soft_pending_compaction_bytes_limit: 68719476736
+2018/07/24-13:22:25.004500 7f7914dd6700   Options.hard_pending_compaction_bytes_limit: 274877906944
+2018/07/24-13:22:25.004501 7f7914dd6700       Options.rate_limit_delay_max_milliseconds: 100
+2018/07/24-13:22:25.004502 7f7914dd6700                Options.disable_auto_compactions: 0
+2018/07/24-13:22:25.004503 7f7914dd6700                        Options.compaction_style: kCompactionStyleLevel
+2018/07/24-13:22:25.004505 7f7914dd6700                          Options.compaction_pri: kByCompensatedSize
+2018/07/24-13:22:25.004506 7f7914dd6700 Options.compaction_options_universal.size_ratio: 1
+2018/07/24-13:22:25.004507 7f7914dd6700 Options.compaction_options_universal.min_merge_width: 2
+2018/07/24-13:22:25.004509 7f7914dd6700 Options.compaction_options_universal.max_merge_width: 4294967295
+2018/07/24-13:22:25.004510 7f7914dd6700 Options.compaction_options_universal.max_size_amplification_percent: 200
+2018/07/24-13:22:25.004511 7f7914dd6700 Options.compaction_options_universal.compression_size_percent: -1
+2018/07/24-13:22:25.004531 7f7914dd6700 Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2018/07/24-13:22:25.004533 7f7914dd6700 Options.compaction_options_fifo.max_table_files_size: 1073741824
+2018/07/24-13:22:25.004534 7f7914dd6700 Options.compaction_options_fifo.allow_compaction: 0
+2018/07/24-13:22:25.004535 7f7914dd6700 Options.compaction_options_fifo.ttl: 0
+2018/07/24-13:22:25.004536 7f7914dd6700                   Options.table_properties_collectors: 
+2018/07/24-13:22:25.004538 7f7914dd6700                   Options.inplace_update_support: 0
+2018/07/24-13:22:25.004539 7f7914dd6700                 Options.inplace_update_num_locks: 10000
+2018/07/24-13:22:25.004541 7f7914dd6700               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2018/07/24-13:22:25.004542 7f7914dd6700   Options.memtable_huge_page_size: 0
+2018/07/24-13:22:25.004543 7f7914dd6700                           Options.bloom_locality: 0
+2018/07/24-13:22:25.004544 7f7914dd6700                    Options.max_successive_merges: 0
+2018/07/24-13:22:25.004546 7f7914dd6700                Options.optimize_filters_for_hits: 0
+2018/07/24-13:22:25.004547 7f7914dd6700                Options.paranoid_file_checks: 0
+2018/07/24-13:22:25.004549 7f7914dd6700                Options.force_consistency_checks: 0
+2018/07/24-13:22:25.004550 7f7914dd6700                Options.report_bg_io_stats: 0
+2018/07/24-13:22:25.004568 7f7914dd6700 [db/column_family.cc:413] --------------- Options for column family [address]:
+2018/07/24-13:22:25.004570 7f7914dd6700               Options.comparator: leveldb.BytewiseComparator
+2018/07/24-13:22:25.004577 7f7914dd6700           Options.merge_operator: StringAppendOperator
+2018/07/24-13:22:25.004579 7f7914dd6700        Options.compaction_filter: None
+2018/07/24-13:22:25.004580 7f7914dd6700        Options.compaction_filter_factory: None
+2018/07/24-13:22:25.004581 7f7914dd6700         Options.memtable_factory: SkipListFactory
+2018/07/24-13:22:25.004582 7f7914dd6700            Options.table_factory: BlockBasedTable
+2018/07/24-13:22:25.004596 7f7914dd6700            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (0x7f790cd1f400)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 0
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  index_type: 0
+  hash_index_allow_collision: 1
+  checksum: 1
+  no_block_cache: 0
+  block_cache: 0x7f790cd1ee88
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 32768
+    num_shard_bits : 10
+    strict_capacity_limit : 0
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: (nil)
+  persistent_cache: (nil)
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  filter_policy: rocksdb.BuiltinBloomFilter
+  whole_key_filtering: 1
+  format_version: 0
+2018/07/24-13:22:25.004598 7f7914dd6700        Options.write_buffer_size: 2097152
+2018/07/24-13:22:25.004599 7f7914dd6700  Options.max_write_buffer_number: 2
+2018/07/24-13:22:25.004601 7f7914dd6700          Options.compression: Snappy
+2018/07/24-13:22:25.004602 7f7914dd6700                  Options.bottommost_compression: Disabled
+2018/07/24-13:22:25.004603 7f7914dd6700       Options.prefix_extractor: nullptr
+2018/07/24-13:22:25.004604 7f7914dd6700   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2018/07/24-13:22:25.004606 7f7914dd6700             Options.num_levels: 7
+2018/07/24-13:22:25.004607 7f7914dd6700        Options.min_write_buffer_number_to_merge: 1
+2018/07/24-13:22:25.004608 7f7914dd6700     Options.max_write_buffer_number_to_maintain: 0
+2018/07/24-13:22:25.004609 7f7914dd6700            Options.compression_opts.window_bits: -14
+2018/07/24-13:22:25.004610 7f7914dd6700                  Options.compression_opts.level: -1
+2018/07/24-13:22:25.004611 7f7914dd6700               Options.compression_opts.strategy: 0
+2018/07/24-13:22:25.004612 7f7914dd6700         Options.compression_opts.max_dict_bytes: 0
+2018/07/24-13:22:25.004614 7f7914dd6700      Options.level0_file_num_compaction_trigger: 4
+2018/07/24-13:22:25.004615 7f7914dd6700          Options.level0_slowdown_writes_trigger: 20
+2018/07/24-13:22:25.004616 7f7914dd6700              Options.level0_stop_writes_trigger: 36
+2018/07/24-13:22:25.004618 7f7914dd6700                   Options.target_file_size_base: 67108864
+2018/07/24-13:22:25.004619 7f7914dd6700             Options.target_file_size_multiplier: 1
+2018/07/24-13:22:25.004621 7f7914dd6700                Options.max_bytes_for_level_base: 268435456
+2018/07/24-13:22:25.004622 7f7914dd6700 Options.level_compaction_dynamic_level_bytes: 0
+2018/07/24-13:22:25.004623 7f7914dd6700          Options.max_bytes_for_level_multiplier: 10.000000
+2018/07/24-13:22:25.004625 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2018/07/24-13:22:25.004626 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2018/07/24-13:22:25.004627 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2018/07/24-13:22:25.004629 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2018/07/24-13:22:25.004630 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2018/07/24-13:22:25.004631 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2018/07/24-13:22:25.004632 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2018/07/24-13:22:25.004633 7f7914dd6700       Options.max_sequential_skip_in_iterations: 8
+2018/07/24-13:22:25.004634 7f7914dd6700                    Options.max_compaction_bytes: 1677721600
+2018/07/24-13:22:25.004636 7f7914dd6700                        Options.arena_block_size: 262144
+2018/07/24-13:22:25.004642 7f7914dd6700   Options.soft_pending_compaction_bytes_limit: 68719476736
+2018/07/24-13:22:25.004644 7f7914dd6700   Options.hard_pending_compaction_bytes_limit: 274877906944
+2018/07/24-13:22:25.004645 7f7914dd6700       Options.rate_limit_delay_max_milliseconds: 100
+2018/07/24-13:22:25.004646 7f7914dd6700                Options.disable_auto_compactions: 0
+2018/07/24-13:22:25.004648 7f7914dd6700                        Options.compaction_style: kCompactionStyleLevel
+2018/07/24-13:22:25.004649 7f7914dd6700                          Options.compaction_pri: kByCompensatedSize
+2018/07/24-13:22:25.004650 7f7914dd6700 Options.compaction_options_universal.size_ratio: 1
+2018/07/24-13:22:25.004651 7f7914dd6700 Options.compaction_options_universal.min_merge_width: 2
+2018/07/24-13:22:25.004652 7f7914dd6700 Options.compaction_options_universal.max_merge_width: 4294967295
+2018/07/24-13:22:25.004654 7f7914dd6700 Options.compaction_options_universal.max_size_amplification_percent: 200
+2018/07/24-13:22:25.004655 7f7914dd6700 Options.compaction_options_universal.compression_size_percent: -1
+2018/07/24-13:22:25.004656 7f7914dd6700 Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2018/07/24-13:22:25.004657 7f7914dd6700 Options.compaction_options_fifo.max_table_files_size: 1073741824
+2018/07/24-13:22:25.004659 7f7914dd6700 Options.compaction_options_fifo.allow_compaction: 0
+2018/07/24-13:22:25.004660 7f7914dd6700 Options.compaction_options_fifo.ttl: 0
+2018/07/24-13:22:25.004661 7f7914dd6700                   Options.table_properties_collectors: 
+2018/07/24-13:22:25.004662 7f7914dd6700                   Options.inplace_update_support: 0
+2018/07/24-13:22:25.004663 7f7914dd6700                 Options.inplace_update_num_locks: 10000
+2018/07/24-13:22:25.004665 7f7914dd6700               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2018/07/24-13:22:25.004666 7f7914dd6700   Options.memtable_huge_page_size: 0
+2018/07/24-13:22:25.004667 7f7914dd6700                           Options.bloom_locality: 0
+2018/07/24-13:22:25.004668 7f7914dd6700                    Options.max_successive_merges: 0
+2018/07/24-13:22:25.004669 7f7914dd6700                Options.optimize_filters_for_hits: 0
+2018/07/24-13:22:25.004671 7f7914dd6700                Options.paranoid_file_checks: 0
+2018/07/24-13:22:25.004672 7f7914dd6700                Options.force_consistency_checks: 0
+2018/07/24-13:22:25.004673 7f7914dd6700                Options.report_bg_io_stats: 0
+2018/07/24-13:22:25.004700 7f7914dd6700 [db/column_family.cc:413] --------------- Options for column family [approvee]:
+2018/07/24-13:22:25.004703 7f7914dd6700               Options.comparator: leveldb.BytewiseComparator
+2018/07/24-13:22:25.004704 7f7914dd6700           Options.merge_operator: StringAppendOperator
+2018/07/24-13:22:25.004705 7f7914dd6700        Options.compaction_filter: None
+2018/07/24-13:22:25.004707 7f7914dd6700        Options.compaction_filter_factory: None
+2018/07/24-13:22:25.004708 7f7914dd6700         Options.memtable_factory: SkipListFactory
+2018/07/24-13:22:25.004709 7f7914dd6700            Options.table_factory: BlockBasedTable
+2018/07/24-13:22:25.004722 7f7914dd6700            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (0x7f790cd1f400)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 0
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  index_type: 0
+  hash_index_allow_collision: 1
+  checksum: 1
+  no_block_cache: 0
+  block_cache: 0x7f790cd1ee88
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 32768
+    num_shard_bits : 10
+    strict_capacity_limit : 0
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: (nil)
+  persistent_cache: (nil)
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  filter_policy: rocksdb.BuiltinBloomFilter
+  whole_key_filtering: 1
+  format_version: 0
+2018/07/24-13:22:25.004724 7f7914dd6700        Options.write_buffer_size: 2097152
+2018/07/24-13:22:25.004726 7f7914dd6700  Options.max_write_buffer_number: 2
+2018/07/24-13:22:25.004733 7f7914dd6700          Options.compression: Snappy
+2018/07/24-13:22:25.004734 7f7914dd6700                  Options.bottommost_compression: Disabled
+2018/07/24-13:22:25.004736 7f7914dd6700       Options.prefix_extractor: nullptr
+2018/07/24-13:22:25.004737 7f7914dd6700   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2018/07/24-13:22:25.004739 7f7914dd6700             Options.num_levels: 7
+2018/07/24-13:22:25.004740 7f7914dd6700        Options.min_write_buffer_number_to_merge: 1
+2018/07/24-13:22:25.004742 7f7914dd6700     Options.max_write_buffer_number_to_maintain: 0
+2018/07/24-13:22:25.004743 7f7914dd6700            Options.compression_opts.window_bits: -14
+2018/07/24-13:22:25.004744 7f7914dd6700                  Options.compression_opts.level: -1
+2018/07/24-13:22:25.004745 7f7914dd6700               Options.compression_opts.strategy: 0
+2018/07/24-13:22:25.004747 7f7914dd6700         Options.compression_opts.max_dict_bytes: 0
+2018/07/24-13:22:25.004748 7f7914dd6700      Options.level0_file_num_compaction_trigger: 4
+2018/07/24-13:22:25.004749 7f7914dd6700          Options.level0_slowdown_writes_trigger: 20
+2018/07/24-13:22:25.004750 7f7914dd6700              Options.level0_stop_writes_trigger: 36
+2018/07/24-13:22:25.004751 7f7914dd6700                   Options.target_file_size_base: 67108864
+2018/07/24-13:22:25.004753 7f7914dd6700             Options.target_file_size_multiplier: 1
+2018/07/24-13:22:25.004754 7f7914dd6700                Options.max_bytes_for_level_base: 268435456
+2018/07/24-13:22:25.004755 7f7914dd6700 Options.level_compaction_dynamic_level_bytes: 0
+2018/07/24-13:22:25.004757 7f7914dd6700          Options.max_bytes_for_level_multiplier: 10.000000
+2018/07/24-13:22:25.004758 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2018/07/24-13:22:25.004760 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2018/07/24-13:22:25.004761 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2018/07/24-13:22:25.004762 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2018/07/24-13:22:25.004764 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2018/07/24-13:22:25.004765 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2018/07/24-13:22:25.004766 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2018/07/24-13:22:25.004767 7f7914dd6700       Options.max_sequential_skip_in_iterations: 8
+2018/07/24-13:22:25.004769 7f7914dd6700                    Options.max_compaction_bytes: 1677721600
+2018/07/24-13:22:25.004770 7f7914dd6700                        Options.arena_block_size: 262144
+2018/07/24-13:22:25.004771 7f7914dd6700   Options.soft_pending_compaction_bytes_limit: 68719476736
+2018/07/24-13:22:25.004772 7f7914dd6700   Options.hard_pending_compaction_bytes_limit: 274877906944
+2018/07/24-13:22:25.004774 7f7914dd6700       Options.rate_limit_delay_max_milliseconds: 100
+2018/07/24-13:22:25.004775 7f7914dd6700                Options.disable_auto_compactions: 0
+2018/07/24-13:22:25.004776 7f7914dd6700                        Options.compaction_style: kCompactionStyleLevel
+2018/07/24-13:22:25.004778 7f7914dd6700                          Options.compaction_pri: kByCompensatedSize
+2018/07/24-13:22:25.004779 7f7914dd6700 Options.compaction_options_universal.size_ratio: 1
+2018/07/24-13:22:25.004780 7f7914dd6700 Options.compaction_options_universal.min_merge_width: 2
+2018/07/24-13:22:25.004781 7f7914dd6700 Options.compaction_options_universal.max_merge_width: 4294967295
+2018/07/24-13:22:25.004783 7f7914dd6700 Options.compaction_options_universal.max_size_amplification_percent: 200
+2018/07/24-13:22:25.004784 7f7914dd6700 Options.compaction_options_universal.compression_size_percent: -1
+2018/07/24-13:22:25.004785 7f7914dd6700 Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2018/07/24-13:22:25.004787 7f7914dd6700 Options.compaction_options_fifo.max_table_files_size: 1073741824
+2018/07/24-13:22:25.004788 7f7914dd6700 Options.compaction_options_fifo.allow_compaction: 0
+2018/07/24-13:22:25.004793 7f7914dd6700 Options.compaction_options_fifo.ttl: 0
+2018/07/24-13:22:25.004795 7f7914dd6700                   Options.table_properties_collectors: 
+2018/07/24-13:22:25.004796 7f7914dd6700                   Options.inplace_update_support: 0
+2018/07/24-13:22:25.004797 7f7914dd6700                 Options.inplace_update_num_locks: 10000
+2018/07/24-13:22:25.004799 7f7914dd6700               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2018/07/24-13:22:25.004800 7f7914dd6700   Options.memtable_huge_page_size: 0
+2018/07/24-13:22:25.004801 7f7914dd6700                           Options.bloom_locality: 0
+2018/07/24-13:22:25.004802 7f7914dd6700                    Options.max_successive_merges: 0
+2018/07/24-13:22:25.004804 7f7914dd6700                Options.optimize_filters_for_hits: 0
+2018/07/24-13:22:25.004805 7f7914dd6700                Options.paranoid_file_checks: 0
+2018/07/24-13:22:25.004806 7f7914dd6700                Options.force_consistency_checks: 0
+2018/07/24-13:22:25.004807 7f7914dd6700                Options.report_bg_io_stats: 0
+2018/07/24-13:22:25.004825 7f7914dd6700 [db/column_family.cc:413] --------------- Options for column family [bundle]:
+2018/07/24-13:22:25.004827 7f7914dd6700               Options.comparator: leveldb.BytewiseComparator
+2018/07/24-13:22:25.004832 7f7914dd6700           Options.merge_operator: StringAppendOperator
+2018/07/24-13:22:25.004834 7f7914dd6700        Options.compaction_filter: None
+2018/07/24-13:22:25.004835 7f7914dd6700        Options.compaction_filter_factory: None
+2018/07/24-13:22:25.004836 7f7914dd6700         Options.memtable_factory: SkipListFactory
+2018/07/24-13:22:25.004837 7f7914dd6700            Options.table_factory: BlockBasedTable
+2018/07/24-13:22:25.004853 7f7914dd6700            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (0x7f790cd1f400)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 0
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  index_type: 0
+  hash_index_allow_collision: 1
+  checksum: 1
+  no_block_cache: 0
+  block_cache: 0x7f790cd1ee88
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 32768
+    num_shard_bits : 10
+    strict_capacity_limit : 0
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: (nil)
+  persistent_cache: (nil)
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  filter_policy: rocksdb.BuiltinBloomFilter
+  whole_key_filtering: 1
+  format_version: 0
+2018/07/24-13:22:25.004855 7f7914dd6700        Options.write_buffer_size: 2097152
+2018/07/24-13:22:25.004856 7f7914dd6700  Options.max_write_buffer_number: 2
+2018/07/24-13:22:25.004857 7f7914dd6700          Options.compression: Snappy
+2018/07/24-13:22:25.004858 7f7914dd6700                  Options.bottommost_compression: Disabled
+2018/07/24-13:22:25.004860 7f7914dd6700       Options.prefix_extractor: nullptr
+2018/07/24-13:22:25.004861 7f7914dd6700   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2018/07/24-13:22:25.004862 7f7914dd6700             Options.num_levels: 7
+2018/07/24-13:22:25.004863 7f7914dd6700        Options.min_write_buffer_number_to_merge: 1
+2018/07/24-13:22:25.004864 7f7914dd6700     Options.max_write_buffer_number_to_maintain: 0
+2018/07/24-13:22:25.004865 7f7914dd6700            Options.compression_opts.window_bits: -14
+2018/07/24-13:22:25.004867 7f7914dd6700                  Options.compression_opts.level: -1
+2018/07/24-13:22:25.004868 7f7914dd6700               Options.compression_opts.strategy: 0
+2018/07/24-13:22:25.004869 7f7914dd6700         Options.compression_opts.max_dict_bytes: 0
+2018/07/24-13:22:25.004870 7f7914dd6700      Options.level0_file_num_compaction_trigger: 4
+2018/07/24-13:22:25.004871 7f7914dd6700          Options.level0_slowdown_writes_trigger: 20
+2018/07/24-13:22:25.004872 7f7914dd6700              Options.level0_stop_writes_trigger: 36
+2018/07/24-13:22:25.004874 7f7914dd6700                   Options.target_file_size_base: 67108864
+2018/07/24-13:22:25.004880 7f7914dd6700             Options.target_file_size_multiplier: 1
+2018/07/24-13:22:25.004882 7f7914dd6700                Options.max_bytes_for_level_base: 268435456
+2018/07/24-13:22:25.004883 7f7914dd6700 Options.level_compaction_dynamic_level_bytes: 0
+2018/07/24-13:22:25.004885 7f7914dd6700          Options.max_bytes_for_level_multiplier: 10.000000
+2018/07/24-13:22:25.004886 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2018/07/24-13:22:25.004887 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2018/07/24-13:22:25.004889 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2018/07/24-13:22:25.004890 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2018/07/24-13:22:25.004891 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2018/07/24-13:22:25.004892 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2018/07/24-13:22:25.004893 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2018/07/24-13:22:25.004895 7f7914dd6700       Options.max_sequential_skip_in_iterations: 8
+2018/07/24-13:22:25.004896 7f7914dd6700                    Options.max_compaction_bytes: 1677721600
+2018/07/24-13:22:25.004897 7f7914dd6700                        Options.arena_block_size: 262144
+2018/07/24-13:22:25.004898 7f7914dd6700   Options.soft_pending_compaction_bytes_limit: 68719476736
+2018/07/24-13:22:25.004899 7f7914dd6700   Options.hard_pending_compaction_bytes_limit: 274877906944
+2018/07/24-13:22:25.004901 7f7914dd6700       Options.rate_limit_delay_max_milliseconds: 100
+2018/07/24-13:22:25.004902 7f7914dd6700                Options.disable_auto_compactions: 0
+2018/07/24-13:22:25.004903 7f7914dd6700                        Options.compaction_style: kCompactionStyleLevel
+2018/07/24-13:22:25.004904 7f7914dd6700                          Options.compaction_pri: kByCompensatedSize
+2018/07/24-13:22:25.004906 7f7914dd6700 Options.compaction_options_universal.size_ratio: 1
+2018/07/24-13:22:25.004907 7f7914dd6700 Options.compaction_options_universal.min_merge_width: 2
+2018/07/24-13:22:25.004908 7f7914dd6700 Options.compaction_options_universal.max_merge_width: 4294967295
+2018/07/24-13:22:25.004909 7f7914dd6700 Options.compaction_options_universal.max_size_amplification_percent: 200
+2018/07/24-13:22:25.004910 7f7914dd6700 Options.compaction_options_universal.compression_size_percent: -1
+2018/07/24-13:22:25.004911 7f7914dd6700 Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2018/07/24-13:22:25.004913 7f7914dd6700 Options.compaction_options_fifo.max_table_files_size: 1073741824
+2018/07/24-13:22:25.004914 7f7914dd6700 Options.compaction_options_fifo.allow_compaction: 0
+2018/07/24-13:22:25.004915 7f7914dd6700 Options.compaction_options_fifo.ttl: 0
+2018/07/24-13:22:25.004916 7f7914dd6700                   Options.table_properties_collectors: 
+2018/07/24-13:22:25.004917 7f7914dd6700                   Options.inplace_update_support: 0
+2018/07/24-13:22:25.004918 7f7914dd6700                 Options.inplace_update_num_locks: 10000
+2018/07/24-13:22:25.004920 7f7914dd6700               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2018/07/24-13:22:25.004921 7f7914dd6700   Options.memtable_huge_page_size: 0
+2018/07/24-13:22:25.004922 7f7914dd6700                           Options.bloom_locality: 0
+2018/07/24-13:22:25.004923 7f7914dd6700                    Options.max_successive_merges: 0
+2018/07/24-13:22:25.004925 7f7914dd6700                Options.optimize_filters_for_hits: 0
+2018/07/24-13:22:25.004926 7f7914dd6700                Options.paranoid_file_checks: 0
+2018/07/24-13:22:25.004927 7f7914dd6700                Options.force_consistency_checks: 0
+2018/07/24-13:22:25.004928 7f7914dd6700                Options.report_bg_io_stats: 0
+2018/07/24-13:22:25.004945 7f7914dd6700 [db/column_family.cc:413] --------------- Options for column family [tag]:
+2018/07/24-13:22:25.004947 7f7914dd6700               Options.comparator: leveldb.BytewiseComparator
+2018/07/24-13:22:25.004948 7f7914dd6700           Options.merge_operator: StringAppendOperator
+2018/07/24-13:22:25.004955 7f7914dd6700        Options.compaction_filter: None
+2018/07/24-13:22:25.004957 7f7914dd6700        Options.compaction_filter_factory: None
+2018/07/24-13:22:25.004958 7f7914dd6700         Options.memtable_factory: SkipListFactory
+2018/07/24-13:22:25.004959 7f7914dd6700            Options.table_factory: BlockBasedTable
+2018/07/24-13:22:25.004972 7f7914dd6700            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (0x7f790cd1f400)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 0
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  index_type: 0
+  hash_index_allow_collision: 1
+  checksum: 1
+  no_block_cache: 0
+  block_cache: 0x7f790cd1ee88
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 32768
+    num_shard_bits : 10
+    strict_capacity_limit : 0
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: (nil)
+  persistent_cache: (nil)
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  filter_policy: rocksdb.BuiltinBloomFilter
+  whole_key_filtering: 1
+  format_version: 0
+2018/07/24-13:22:25.004975 7f7914dd6700        Options.write_buffer_size: 2097152
+2018/07/24-13:22:25.004976 7f7914dd6700  Options.max_write_buffer_number: 2
+2018/07/24-13:22:25.004977 7f7914dd6700          Options.compression: Snappy
+2018/07/24-13:22:25.004978 7f7914dd6700                  Options.bottommost_compression: Disabled
+2018/07/24-13:22:25.004980 7f7914dd6700       Options.prefix_extractor: nullptr
+2018/07/24-13:22:25.004981 7f7914dd6700   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2018/07/24-13:22:25.004982 7f7914dd6700             Options.num_levels: 7
+2018/07/24-13:22:25.004983 7f7914dd6700        Options.min_write_buffer_number_to_merge: 1
+2018/07/24-13:22:25.004984 7f7914dd6700     Options.max_write_buffer_number_to_maintain: 0
+2018/07/24-13:22:25.004985 7f7914dd6700            Options.compression_opts.window_bits: -14
+2018/07/24-13:22:25.004987 7f7914dd6700                  Options.compression_opts.level: -1
+2018/07/24-13:22:25.004988 7f7914dd6700               Options.compression_opts.strategy: 0
+2018/07/24-13:22:25.005021 7f7914dd6700         Options.compression_opts.max_dict_bytes: 0
+2018/07/24-13:22:25.005022 7f7914dd6700      Options.level0_file_num_compaction_trigger: 4
+2018/07/24-13:22:25.005023 7f7914dd6700          Options.level0_slowdown_writes_trigger: 20
+2018/07/24-13:22:25.005024 7f7914dd6700              Options.level0_stop_writes_trigger: 36
+2018/07/24-13:22:25.005025 7f7914dd6700                   Options.target_file_size_base: 67108864
+2018/07/24-13:22:25.005026 7f7914dd6700             Options.target_file_size_multiplier: 1
+2018/07/24-13:22:25.005030 7f7914dd6700                Options.max_bytes_for_level_base: 268435456
+2018/07/24-13:22:25.005031 7f7914dd6700 Options.level_compaction_dynamic_level_bytes: 0
+2018/07/24-13:22:25.005033 7f7914dd6700          Options.max_bytes_for_level_multiplier: 10.000000
+2018/07/24-13:22:25.005034 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2018/07/24-13:22:25.005036 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2018/07/24-13:22:25.005037 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2018/07/24-13:22:25.005038 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2018/07/24-13:22:25.005039 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2018/07/24-13:22:25.005040 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2018/07/24-13:22:25.005042 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2018/07/24-13:22:25.005043 7f7914dd6700       Options.max_sequential_skip_in_iterations: 8
+2018/07/24-13:22:25.005044 7f7914dd6700                    Options.max_compaction_bytes: 1677721600
+2018/07/24-13:22:25.005045 7f7914dd6700                        Options.arena_block_size: 262144
+2018/07/24-13:22:25.005046 7f7914dd6700   Options.soft_pending_compaction_bytes_limit: 68719476736
+2018/07/24-13:22:25.005054 7f7914dd6700   Options.hard_pending_compaction_bytes_limit: 274877906944
+2018/07/24-13:22:25.005055 7f7914dd6700       Options.rate_limit_delay_max_milliseconds: 100
+2018/07/24-13:22:25.005056 7f7914dd6700                Options.disable_auto_compactions: 0
+2018/07/24-13:22:25.005058 7f7914dd6700                        Options.compaction_style: kCompactionStyleLevel
+2018/07/24-13:22:25.005059 7f7914dd6700                          Options.compaction_pri: kByCompensatedSize
+2018/07/24-13:22:25.005060 7f7914dd6700 Options.compaction_options_universal.size_ratio: 1
+2018/07/24-13:22:25.005061 7f7914dd6700 Options.compaction_options_universal.min_merge_width: 2
+2018/07/24-13:22:25.005062 7f7914dd6700 Options.compaction_options_universal.max_merge_width: 4294967295
+2018/07/24-13:22:25.005064 7f7914dd6700 Options.compaction_options_universal.max_size_amplification_percent: 200
+2018/07/24-13:22:25.005065 7f7914dd6700 Options.compaction_options_universal.compression_size_percent: -1
+2018/07/24-13:22:25.005066 7f7914dd6700 Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2018/07/24-13:22:25.005067 7f7914dd6700 Options.compaction_options_fifo.max_table_files_size: 1073741824
+2018/07/24-13:22:25.005068 7f7914dd6700 Options.compaction_options_fifo.allow_compaction: 0
+2018/07/24-13:22:25.005069 7f7914dd6700 Options.compaction_options_fifo.ttl: 0
+2018/07/24-13:22:25.005071 7f7914dd6700                   Options.table_properties_collectors: 
+2018/07/24-13:22:25.005072 7f7914dd6700                   Options.inplace_update_support: 0
+2018/07/24-13:22:25.005073 7f7914dd6700                 Options.inplace_update_num_locks: 10000
+2018/07/24-13:22:25.005074 7f7914dd6700               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2018/07/24-13:22:25.005076 7f7914dd6700   Options.memtable_huge_page_size: 0
+2018/07/24-13:22:25.005077 7f7914dd6700                           Options.bloom_locality: 0
+2018/07/24-13:22:25.005078 7f7914dd6700                    Options.max_successive_merges: 0
+2018/07/24-13:22:25.005079 7f7914dd6700                Options.optimize_filters_for_hits: 0
+2018/07/24-13:22:25.005080 7f7914dd6700                Options.paranoid_file_checks: 0
+2018/07/24-13:22:25.005082 7f7914dd6700                Options.force_consistency_checks: 0
+2018/07/24-13:22:25.005083 7f7914dd6700                Options.report_bg_io_stats: 0
+2018/07/24-13:22:25.005102 7f7914dd6700 [db/column_family.cc:413] --------------- Options for column family [vm-state]:
+2018/07/24-13:22:25.005104 7f7914dd6700               Options.comparator: leveldb.BytewiseComparator
+2018/07/24-13:22:25.005105 7f7914dd6700           Options.merge_operator: StringAppendOperator
+2018/07/24-13:22:25.005107 7f7914dd6700        Options.compaction_filter: None
+2018/07/24-13:22:25.005108 7f7914dd6700        Options.compaction_filter_factory: None
+2018/07/24-13:22:25.005109 7f7914dd6700         Options.memtable_factory: SkipListFactory
+2018/07/24-13:22:25.005110 7f7914dd6700            Options.table_factory: BlockBasedTable
+2018/07/24-13:22:25.005122 7f7914dd6700            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (0x7f790cd1f400)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 0
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  index_type: 0
+  hash_index_allow_collision: 1
+  checksum: 1
+  no_block_cache: 0
+  block_cache: 0x7f790cd1ee88
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 32768
+    num_shard_bits : 10
+    strict_capacity_limit : 0
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: (nil)
+  persistent_cache: (nil)
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  filter_policy: rocksdb.BuiltinBloomFilter
+  whole_key_filtering: 1
+  format_version: 0
+2018/07/24-13:22:25.005125 7f7914dd6700        Options.write_buffer_size: 2097152
+2018/07/24-13:22:25.005126 7f7914dd6700  Options.max_write_buffer_number: 2
+2018/07/24-13:22:25.005128 7f7914dd6700          Options.compression: Snappy
+2018/07/24-13:22:25.005134 7f7914dd6700                  Options.bottommost_compression: Disabled
+2018/07/24-13:22:25.005136 7f7914dd6700       Options.prefix_extractor: nullptr
+2018/07/24-13:22:25.005137 7f7914dd6700   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2018/07/24-13:22:25.005138 7f7914dd6700             Options.num_levels: 7
+2018/07/24-13:22:25.005141 7f7914dd6700        Options.min_write_buffer_number_to_merge: 1
+2018/07/24-13:22:25.005142 7f7914dd6700     Options.max_write_buffer_number_to_maintain: 0
+2018/07/24-13:22:25.005143 7f7914dd6700            Options.compression_opts.window_bits: -14
+2018/07/24-13:22:25.005144 7f7914dd6700                  Options.compression_opts.level: -1
+2018/07/24-13:22:25.005146 7f7914dd6700               Options.compression_opts.strategy: 0
+2018/07/24-13:22:25.005147 7f7914dd6700         Options.compression_opts.max_dict_bytes: 0
+2018/07/24-13:22:25.005148 7f7914dd6700      Options.level0_file_num_compaction_trigger: 4
+2018/07/24-13:22:25.005149 7f7914dd6700          Options.level0_slowdown_writes_trigger: 20
+2018/07/24-13:22:25.005150 7f7914dd6700              Options.level0_stop_writes_trigger: 36
+2018/07/24-13:22:25.005152 7f7914dd6700                   Options.target_file_size_base: 67108864
+2018/07/24-13:22:25.005153 7f7914dd6700             Options.target_file_size_multiplier: 1
+2018/07/24-13:22:25.005154 7f7914dd6700                Options.max_bytes_for_level_base: 268435456
+2018/07/24-13:22:25.005155 7f7914dd6700 Options.level_compaction_dynamic_level_bytes: 0
+2018/07/24-13:22:25.005157 7f7914dd6700          Options.max_bytes_for_level_multiplier: 10.000000
+2018/07/24-13:22:25.005159 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2018/07/24-13:22:25.005160 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2018/07/24-13:22:25.005161 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2018/07/24-13:22:25.005163 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2018/07/24-13:22:25.005164 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2018/07/24-13:22:25.005165 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2018/07/24-13:22:25.005166 7f7914dd6700 Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2018/07/24-13:22:25.005168 7f7914dd6700       Options.max_sequential_skip_in_iterations: 8
+2018/07/24-13:22:25.005169 7f7914dd6700                    Options.max_compaction_bytes: 1677721600
+2018/07/24-13:22:25.005170 7f7914dd6700                        Options.arena_block_size: 262144
+2018/07/24-13:22:25.005171 7f7914dd6700   Options.soft_pending_compaction_bytes_limit: 68719476736
+2018/07/24-13:22:25.005173 7f7914dd6700   Options.hard_pending_compaction_bytes_limit: 274877906944
+2018/07/24-13:22:25.005174 7f7914dd6700       Options.rate_limit_delay_max_milliseconds: 100
+2018/07/24-13:22:25.005175 7f7914dd6700                Options.disable_auto_compactions: 0
+2018/07/24-13:22:25.005177 7f7914dd6700                        Options.compaction_style: kCompactionStyleLevel
+2018/07/24-13:22:25.005178 7f7914dd6700                          Options.compaction_pri: kByCompensatedSize
+2018/07/24-13:22:25.005179 7f7914dd6700 Options.compaction_options_universal.size_ratio: 1
+2018/07/24-13:22:25.005180 7f7914dd6700 Options.compaction_options_universal.min_merge_width: 2
+2018/07/24-13:22:25.005182 7f7914dd6700 Options.compaction_options_universal.max_merge_width: 4294967295
+2018/07/24-13:22:25.005183 7f7914dd6700 Options.compaction_options_universal.max_size_amplification_percent: 200
+2018/07/24-13:22:25.005184 7f7914dd6700 Options.compaction_options_universal.compression_size_percent: -1
+2018/07/24-13:22:25.005185 7f7914dd6700 Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2018/07/24-13:22:25.005187 7f7914dd6700 Options.compaction_options_fifo.max_table_files_size: 1073741824
+2018/07/24-13:22:25.005188 7f7914dd6700 Options.compaction_options_fifo.allow_compaction: 0
+2018/07/24-13:22:25.005189 7f7914dd6700 Options.compaction_options_fifo.ttl: 0
+2018/07/24-13:22:25.005195 7f7914dd6700                   Options.table_properties_collectors: 
+2018/07/24-13:22:25.005196 7f7914dd6700                   Options.inplace_update_support: 0
+2018/07/24-13:22:25.005197 7f7914dd6700                 Options.inplace_update_num_locks: 10000
+2018/07/24-13:22:25.005199 7f7914dd6700               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2018/07/24-13:22:25.005200 7f7914dd6700   Options.memtable_huge_page_size: 0
+2018/07/24-13:22:25.005201 7f7914dd6700                           Options.bloom_locality: 0
+2018/07/24-13:22:25.005203 7f7914dd6700                    Options.max_successive_merges: 0
+2018/07/24-13:22:25.005204 7f7914dd6700                Options.optimize_filters_for_hits: 0
+2018/07/24-13:22:25.005205 7f7914dd6700                Options.paranoid_file_checks: 0
+2018/07/24-13:22:25.005206 7f7914dd6700                Options.force_consistency_checks: 0
+2018/07/24-13:22:25.005207 7f7914dd6700                Options.report_bg_io_stats: 0
+2018/07/24-13:22:25.005223 7f7914dd6700 [db/column_family.cc:416] 	(skipping printing options)
+2018/07/24-13:22:25.006827 7f7914dd6700 [db/version_set.cc:2969] Recovered from manifest file:testnetdb/MANIFEST-000509 succeeded,manifest_file_number is 509, next_file_number is 511, last_sequence is 2258, log_number is 0,prev_log_number is 0,max_column_family is 10
+2018/07/24-13:22:25.006832 7f7914dd6700 [db/version_set.cc:2977] Column family [default] (ID 0), log number is 508
+2018/07/24-13:22:25.006834 7f7914dd6700 [db/version_set.cc:2977] Column family [transaction] (ID 1), log number is 508
+2018/07/24-13:22:25.006835 7f7914dd6700 [db/version_set.cc:2977] Column family [transaction-metadata] (ID 2), log number is 508
+2018/07/24-13:22:25.006836 7f7914dd6700 [db/version_set.cc:2977] Column family [milestone] (ID 3), log number is 508
+2018/07/24-13:22:25.006837 7f7914dd6700 [db/version_set.cc:2977] Column family [stateDiff] (ID 4), log number is 508
+2018/07/24-13:22:25.006838 7f7914dd6700 [db/version_set.cc:2977] Column family [address] (ID 5), log number is 508
+2018/07/24-13:22:25.006839 7f7914dd6700 [db/version_set.cc:2977] Column family [approvee] (ID 6), log number is 508
+2018/07/24-13:22:25.006840 7f7914dd6700 [db/version_set.cc:2977] Column family [bundle] (ID 7), log number is 508
+2018/07/24-13:22:25.006842 7f7914dd6700 [db/version_set.cc:2977] Column family [tag] (ID 8), log number is 508
+2018/07/24-13:22:25.006843 7f7914dd6700 [db/version_set.cc:2977] Column family [vm-state] (ID 9), log number is 508
+2018/07/24-13:22:25.006844 7f7914dd6700 [db/version_set.cc:2977] Column family [alias] (ID 10), log number is 508
+2018/07/24-13:22:25.007005 7f7914dd6700 EVENT_LOG_v1 {"time_micros": 1532409745006993, "job": 1, "event": "recovery_started", "log_files": [510]}
+2018/07/24-13:22:25.007012 7f7914dd6700 [db/db_impl_open.cc:506] Recovering log #510 mode 2
+2018/07/24-13:22:25.007061 7f7914dd6700 [db/version_set.cc:2498] Creating manifest 512
+2018/07/24-13:22:25.015503 7f7914dd6700 EVENT_LOG_v1 {"time_micros": 1532409745015498, "job": 1, "event": "recovery_finished"}
+2018/07/24-13:22:25.019599 7f7914dd6700 [db/db_impl_open.cc:1111] DB pointer 0x7f790cd90880
+2018/07/24-13:22:25.020073 7f7914dd6700 [db/db_filesnapshot.cc:57] File Deletions Enabled

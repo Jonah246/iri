@@ -64,7 +64,7 @@ public class LedgerValidator {
 
                 final TransactionViewModel transactionViewModel = TransactionViewModel.fromHash(tangle, transactionPointer);
                 if (transactionViewModel.snapshotIndex() == 0 || transactionViewModel.snapshotIndex() > latestSnapshotIndex) {
-                    numberOfAnalyzedTransactions++;
+                    numberOfAnalyzedTransactions++; 
                     if (transactionViewModel.getType() == TransactionViewModel.PREFILLED_SLOT) {
                         transactionRequester.requestTransaction(transactionViewModel.getHash(), milestone);
                         return null;
@@ -120,7 +120,7 @@ public class LedgerValidator {
                 }
             }
         }
-
+        
         log.debug("Analyzed transactions = " + numberOfAnalyzedTransactions);
         if (tip == null) {
             numberOfConfirmedTransactions = numberOfAnalyzedTransactions;

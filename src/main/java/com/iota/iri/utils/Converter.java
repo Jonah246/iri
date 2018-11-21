@@ -2,6 +2,7 @@ package com.iota.iri.utils;
 
 import java.math.BigInteger;
 import java.util.Arrays;
+import jota.utils.Constants;
 
 public class Converter {
 
@@ -249,4 +250,26 @@ public class Converter {
         trits(trytes, trits, 0);
         return trits;
   }
+  public static String toString(String inputTrytes) {
+    
+            // If input length is odd, return null
+            if (inputTrytes.length() % 2 != 0)
+                inputTrytes+="0";
+            
+            StringBuilder string = new StringBuilder();
+    
+            for (int i = 0; i < inputTrytes.length(); i += 2) {
+                // get a trytes pair
+    
+                int firstValue = Constants.TRYTE_ALPHABET.indexOf(inputTrytes.charAt(i));
+                int secondValue = Constants.TRYTE_ALPHABET.indexOf(inputTrytes.charAt(i + 1));
+    
+                int decimalValue = firstValue + secondValue * 27;
+    
+                String character = Character.toString((char) decimalValue);
+                string.append(character);
+            }
+    
+            return string.toString();
+    }
 }
